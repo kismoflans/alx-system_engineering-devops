@@ -1,8 +1,11 @@
-README: Understanding Postmortems in Software Engineering
-Overview
-In the world of software engineering, system failures are an inevitable part of the lifecycle. These failures can arise from a variety of factors such as bugs, traffic spikes, security vulnerabilities, hardware malfunctions, natural disasters, and human error. While failure is a natural occurrence, it also presents a valuable opportunity to learn and improve. The key is not to avoid failure entirely but to ensure that each failure serves as a learning experience to prevent future occurrences of the same issue.
+**README: Understanding Postmortems in Software Engineering**
 
-What is a Postmortem?
+*Overview*
+In the world of software engineering, system failures are an inevitable part of the lifecycle. 
+These failures can arise from a variety of factors such as bugs, traffic spikes, security vulnerabilities, hardware malfunctions, natural disasters, and human error.
+While failure is a natural occurrence, it also presents a valuable opportunity to learn and improve. The key is not to avoid failure entirely but to ensure that each failure serves as a learning experience to prevent future occurrences of the same issue.
+
+*What is a Postmortem?*
 A postmortem is a critical tool used in the tech industry to analyze and document the details of an outage or system failure. The process involves creating a comprehensive report that serves two main purposes:
 
 Inform: To provide the company’s employees, including managers and executives, with clear and accessible information about the cause of the outage. Understanding the nature and impact of the failure helps in managing expectations and planning for any necessary adjustments in workflows or resources.
