@@ -1,30 +1,21 @@
 #!/usr/bin/python3
-""" Function that queries the Reddit API """
+""" Exporting csv files"""
+import json
 import requests
+import sys
+
 
 def number_of_subscribers(subreddit):
-    """
-    Args:
-        subreddit: subreddit name
-    Returns:
-        number of subscribers to the subreddit,
-        or 0 if the subreddit is invalid or an error occurs
-    """
-    # Set the custom User-Agent header
-    headers = {'User-Agent': 'xica369'}
-    # Construct the URL for the Reddit API request
-    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
-    
-    try:
-        # Make the GET request to the Reddit API with no redirects allowed
-        response = requests.get(url, headers=headers, allow_redirects=False)
-        
-        # Check if the response status code is 200 (OK)
-        if response.status_code == 200:
-            # Parse the JSON response and get the number of subscribers
-            return response.json().get("data", {}).get("subscribers", 0)
-    except Exception as e:
-        pass  # Catch all exceptions and simply return 0
-    
-    # If the status code is not 200 or an error occurs, return 0
-    return 0
+    """Read reddit API and return number subscribers """
+    username = 'ledbag123'
+    password = 'Reddit72'
+    user_pass_dict = {'user': username, 'passwd': password, 'api_type': 'json'}
+    headers = {'user-agent': '/u/ledbag123 API Python for Holberton School'}
+    url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
+    client = requests.session()
+    client.headers = headers
+    r = client.get(url, allow_redirects=False)
+    if r.status_code == 200:
+        return (r.json()["data"]["subscribers"])
+    else:
+        return(0)
