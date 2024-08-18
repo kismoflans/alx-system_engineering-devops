@@ -1,9 +1,9 @@
-Postmortem Report: Outage of Web Service XYZ
+Postmortem Report: Outage of Web Service CRM
 
 Issue Summary:
 
 Duration: The outage occurred from 14:00 to 15:30 (UTC) on August 17, 2024.
-Impact: The XYZ web service was completely down during this period, affecting approximately 70% of users. Users experienced timeout errors when trying to access the service, which led to a significant disruption in their activities.
+Impact: The CRM web service was completely down during this period, affecting approximately 70% of users. Users experienced timeout errors when trying to access the service, which led to a significant disruption in their activities.
 Root Cause: The root cause was identified as a failure in the database connection pool management. The connection pool reached its maximum capacity, leading to excessive connection timeouts and service unavailability.
 Timeline:
 

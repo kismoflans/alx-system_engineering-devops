@@ -1,9 +1,12 @@
-Postmortem Report: The Great Web Service XYZ Meltdown
+Postmortem Report: The Great Web Service CRM Meltdown
+
+![Fire at Fort McMurray](https://earth.esa.int/web/earth-watching/content/documents/257246/2490551/Fort-McMurray-fires-animation/index.gif)
+
 
 Issue Summary:
 
 Duration: The chaos unfolded from 14:00 to 15:30 (UTC) on August 17, 2024.
-Impact: XYZ web service went MIA, leaving 70% of users in a state of digital limbo. Error messages and timeouts became the norm, causing frustration and mild panic.
+Impact: CRM web service went MIA, leaving 70% of users in a state of digital limbo. Error messages and timeouts became the norm, causing frustration and mild panic.
 Root Cause: It turns out the database connection pool was like a VIP club with too few bouncers. When the crowd got too big, no one could get in.
 Timeline:
 
