@@ -1,5 +1,7 @@
 Postmortem Report: The Great Web Service CRM Meltdown
-![Alt text]([URL](https://www.google.com/imgres?q=fire%20truck&imgurl=https%3A%2F%2Fi0.wp.com%2Fkevcor.co.za%2Fwp-content%2Fuploads%2F2016%2F11%2FThe-Components-of-a-Fire-Truck-1.jpg%3Ffit%3D800%252C450%26ssl%3D1&imgrefurl=https%3A%2F%2Fkevcor.co.za%2Fthe-components-of-a-fire-truck%2F&docid=XtcXQ3CVr_SX9M&tbnid=LLi2R7diaB9EgM&vet=12ahUKEwi51PS6tf-HAxVflf0HHU7WE-0QM3oECFsQAA..i&w=800&h=450&hcb=2&ved=2ahUKEwi51PS6tf-HAxVflf0HHU7WE-0QM3oECFsQAA))
+
+![Fire at Fort McMurray](https://earth.esa.int/web/earth-watching/content/documents/257246/2490551/Fort-McMurray-fires-animation/index.gif)
+
 
 Issue Summary:
 
